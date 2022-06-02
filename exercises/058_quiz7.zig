@@ -359,7 +359,7 @@ pub fn main() void {
     // Here's where the hermit decides where he would like to go. Once
     // you get the program working, try some different Places on the
     // map!
-    const start = &f; // Archer's Point
+    const start = &a; // Archer's Point
     const destination = &f; // Fox Pond
 
     // Store each Path array as a slice in each Place. As mentioned
